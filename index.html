@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>
+       demistyfying PHP FORM
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>
+        Contact Form
+    </h2>
+    <form action="mail.php" method="post">
+        <p class="name">
+            <input type="text" name="name" placeholder="Name" required>
+            <label for="name">
+                Full Name
+            </label>
+        </p>
+        <p class="last_name">
+            <input type="text" name="last_name"  placeholder="Full Name" required>
+            <label for="last_name">
+                Last Name
+            </label>
+        </p>
+
+        <p class="mail">
+            <input type="email" name="email" placeholder="mail@example.com" required>
+            <label for="email">
+                Email
+            </label>
+        </p>
+
+        <p class="website">
+            <input type="text" name="website" placeholder="www.example.com" required>
+            <label for="website">
+                Website
+            </label>
+        </p>
+
+
+        <textarea name="message" placeholder="send us message">
+
+        </textarea>
+        <p class="submit">
+            <input type="submit" value="Send">
+        </p>
+    </form>
+</div>
+</body>
+</html>
